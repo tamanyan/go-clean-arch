@@ -1,5 +1,5 @@
 BINARY=engine
-test: 
+test:
 	go test -v -cover -covermode=atomic ./...
 
 engine:
@@ -15,13 +15,13 @@ docker:
 	docker build -t go-clean-arch .
 
 run:
-	docker-compose up -d
+	docker-compose up
 
 stop:
 	docker-compose down
 
 lint-prepare:
-	@echo "Installing golangci-lint" 
+	@echo "Installing golangci-lint"
 	curl -sfL https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh| sh -s latest
 
 lint:

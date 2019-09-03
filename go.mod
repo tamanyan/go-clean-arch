@@ -6,8 +6,11 @@ require (
 	github.com/BurntSushi/toml v0.3.1 // indirect
 	github.com/bxcodec/faker v1.4.2
 	github.com/davecgh/go-spew v1.1.0 // indirect
+	github.com/dgrijalva/jwt-go v3.2.0+incompatible // indirect
+	github.com/fatih/color v1.7.0 // indirect
 	github.com/go-playground/locales v0.12.1 // indirect
 	github.com/go-playground/universal-translator v0.16.0 // indirect
+	github.com/go-siris/siris v7.4.0+incompatible // indirect
 	github.com/go-sql-driver/mysql v1.3.0
 	github.com/hashicorp/hcl v0.0.0-20180404174102-ef8a98b0bbce // indirect
 	github.com/labstack/echo v3.3.5+incompatible
@@ -18,8 +21,11 @@ require (
 	github.com/mitchellh/mapstructure v0.0.0-20180220230111-00c29f56e238 // indirect
 	github.com/onsi/ginkgo v1.8.0 // indirect
 	github.com/onsi/gomega v1.5.0 // indirect
+	github.com/oxequa/interact v0.0.0-20171114182912-f8fb5795b5d7 // indirect
+	github.com/oxequa/realize v2.0.2+incompatible // indirect
 	github.com/pelletier/go-toml v1.1.0 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
+	github.com/satori/go.uuid v1.2.0 // indirect
 	github.com/sirupsen/logrus v1.0.5
 	github.com/spf13/afero v1.1.0 // indirect
 	github.com/spf13/cast v1.2.0 // indirect
@@ -37,4 +43,5 @@ require (
 	gopkg.in/gemnasium/logrus-airbrake-hook.v2 v2.1.2 // indirect
 	gopkg.in/go-playground/assert.v1 v1.2.1 // indirect
 	gopkg.in/go-playground/validator.v9 v9.15.0
+	gopkg.in/urfave/cli.v2 v2.0.0-20190806201727-b62605953717 // indirect
 )
